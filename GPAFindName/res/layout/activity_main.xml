@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Inserire un nome" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewEsito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_alignRight="@+id/editTextName"
+        android:layout_below="@+id/editTextName"
+        android:layout_marginTop="18dp"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/btnFindName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewEsito"
+        android:layout_alignRight="@+id/textViewEsito"
+        android:layout_below="@+id/textViewEsito"
+        android:layout_marginTop="16dp"
+        android:text="Cerca nome" />
+
+    <Button
+        android:id="@+id/btnLaunch2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnFindName"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnFindName"
+        android:layout_marginBottom="32dp"
+        android:text="2nd Activity"
+        android:onClick="Launch2ndActivity"
+         />
+
+</RelativeLayout>

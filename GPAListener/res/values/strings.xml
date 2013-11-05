@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPAListener</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_output">no data</string>
+    <string name="btnConta">Cliccami!!!</string>
+    <string name="btnStringa">Aggiorna!</string>
+
+</resources>
